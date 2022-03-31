@@ -1,1 +1,8 @@
-# tcc-2021-clean
+# Utilização de imagens omnidirecionais catadióptricas para visão computacional de veículos não tripulados
+## Aluna: Bianca Puerta Rocha Prof: Dr. André Luís Olivete
+
+Trata-se de um trabalho de conclusão de curso desenvolvido durante o ano de 2021 para o curso de Bacharelado em Ciência da Computação pelo IFSP - Campus Presidnete Epitácio. 
+O presente projeto faz parte do desenvolvimento de um veículo remotamente controlado de baixo custo para aplicações em ambientes de grande periculosidade para seres humanos, permitindo navegar e obter informações sobre o ambiente, e visa estudar os principais métodos para retificação e geração de imagens panorâmicas a partir de imagens omnidirecionais catadióptricas obtidas com câmeras e espelhos, como também a identificação de objetos nas cenas. Este objetivo foi alcançado pela implementação de um servidor em Python contendo o processamento de imagem necessário para tal veículo e que foi testado por meio de uma aplicação java que simula um cliente ao fazer requisições ao servidor. 
+Também foi desenvolvido um pacote Java de encapsulamento com todas as funções necessárias para fazer a comunicação com o servidor que pode ser incluido em qualquer projeto Java sem que seja necessário o entendimento completo de como é feita a comunicação para que seja utilizado.
+
+ -- Para mais informações, leia a documentação disponível na pasta "server" e os textos disponíveis na pasta "textos".
